@@ -12,6 +12,9 @@ public class ConvertToBinary {
   			bin[ind++]==num%2;
   			num = num/2;
   		}
+      for(int i = index-1;i >= 0;i--){
+       System.out.print(binary[i]);
+     }
   	}
   	catch(Exception e){
   		System.out.println("so far it doesn't still supports to convert the negative number into binary"+ e.getMessage());
