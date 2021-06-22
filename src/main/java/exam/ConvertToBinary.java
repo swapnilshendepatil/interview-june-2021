@@ -12,8 +12,8 @@ public class ConvertToBinary {
   			bin[ind++]==num%2;
   			num = num/2;
   		}
-      for(int i = index-1;i >= 0;i--){
-       System.out.print(binary[i]);
+      for(int i = ind-1;i >= 0;i--){
+       System.out.print(bin[i]);
      }
   	}
   	catch(Exception e){
